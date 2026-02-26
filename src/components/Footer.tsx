@@ -1,10 +1,10 @@
+import logo from "@/assets/logo.png";
+
 const Footer = () => {
   return (
     <footer className="bg-primary py-12 border-t border-gold/10">
       <div className="container mx-auto px-6 text-center">
-        <h3 className="font-cinzel text-2xl font-bold text-gold-light mb-2">
-          Royal <span className="text-gradient-gold">Saúde</span>
-        </h3>
+        <img src={logo} alt="Royal Saúde" className="h-16 mx-auto mb-4" />
         <p className="text-gold/40 font-body text-sm mb-6">
           Convênio médico acessível para Campo Grande – MS e região
         </p>

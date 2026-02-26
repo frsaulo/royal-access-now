@@ -1,18 +1,38 @@
 import { motion } from "framer-motion";
-import heroImage from "@/assets/hero-medical.jpg";
+import familiaImg from "@/assets/familia.jpg";
+import familia2Img from "@/assets/familia2.jpg";
+import familia3Img from "@/assets/familia3.jpg";
+import { useState, useEffect } from "react";
+
+const images = [familiaImg, familia2Img, familia3Img];
 
 const HeroSection = () => {
+  const [current, setCurrent] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrent((prev) => (prev + 1) % images.length);
+    }, 5000);
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden">
-      {/* Background image */}
-      <div className="absolute inset-0">
-        <img
-          src={heroImage}
-          alt="Clínica Royal Saúde"
-          className="w-full h-full object-cover"
-        />
-        <div className="absolute inset-0 bg-gradient-to-r from-primary/95 via-primary/80 to-primary/40" />
-      </div>
+      {/* Background images carousel */}
+      {images.map((img, i) => (
+        <div
+          key={i}
+          className="absolute inset-0 transition-opacity duration-1000"
+          style={{ opacity: current === i ? 1 : 0 }}
+        >
+          <img
+            src={img}
+            alt="Família feliz Royal Saúde"
+            className="w-full h-full object-cover"
+          />
+        </div>
+      ))}
+      <div className="absolute inset-0 bg-gradient-to-r from-primary/95 via-primary/80 to-primary/40" />
 
       {/* Content */}
       <div className="relative z-10 container mx-auto px-6 py-20">
@@ -68,6 +88,17 @@ const HeroSection = () => {
             </motion.a>
           </div>
         </motion.div>
+      </div>
+
+      {/* Carousel indicators */}
+      <div className="absolute bottom-6 left-1/2 -translate-x-1/2 z-10 flex gap-2">
+        {images.map((_, i) => (
+          <button
+            key={i}
+            onClick={() => setCurrent(i)}
+            className={`w-2.5 h-2.5 rounded-full transition-all ${current === i ? "bg-gold-light w-8" : "bg-gold/40"}`}
+          />
+        ))}
       </div>
 
       {/* Bottom decorative line */}
