@@ -32,7 +32,7 @@ const HeroSection = () => {
           />
         </div>
       ))}
-      <div className="absolute inset-0 bg-gradient-to-r from-primary/95 via-primary/80 to-primary/40" />
+      <div className="absolute inset-0 bg-gradient-to-r from-primary/50 via-primary/40 to-primary/20" />
 
       {/* Content */}
       <div className="relative z-10 container mx-auto px-6 py-20">
@@ -54,15 +54,15 @@ const HeroSection = () => {
           </motion.div>
 
           <h1 className="text-5xl md:text-7xl font-cinzel font-bold text-primary-foreground leading-tight mb-6">
-            Royal{" "}
-            <span className="text-gradient-gold">Saúde</span>
+            Royal <span className="text-gradient-gold">Saúde</span>
           </h1>
 
           <p className="text-xl md:text-2xl text-gold-light font-body font-light mb-4">
             Consulta médica sem filas.
           </p>
           <p className="text-lg text-gold/80 font-body mb-8 max-w-lg">
-            Atendimento imediato com agenda aberta. Acesso direto a médicos generalistas por apenas{" "}
+            Atendimento imediato com agenda aberta. Acesso direto a médicos
+            generalistas por apenas{" "}
             <span className="text-accent font-bold text-2xl">R$100</span>{" "}
             <span className="text-gold-light">/mês</span>
           </p>
