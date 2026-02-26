@@ -14,7 +14,7 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-gold backdrop-blur-md border-b border-gold-light/30">
+    <nav className="fixed top-0 left-0 right-0 z-50 backdrop-blur-md border-b border-gold-light/30" style={{ backgroundColor: '#e9e6c9' }}>
       <div className="container mx-auto px-6 flex items-center justify-between h-16">
         <a href="#" className="flex items-center gap-2">
           <img src={logo} alt="Royal Saúde" className="h-12" />
@@ -54,7 +54,7 @@ const Navbar = () => {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
-            className="md:hidden bg-gold border-t border-gold-light/30"
+            className="md:hidden border-t border-gold-light/30" style={{ backgroundColor: '#e9e6c9' }}
           >
             <div className="container mx-auto px-6 py-4 flex flex-col gap-4">
               {navLinks.map((link) => (
