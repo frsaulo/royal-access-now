@@ -57,14 +57,14 @@ const HeroSection = () => {
             Royal <span className="text-gradient-gold">Saúde</span>
           </h1>
 
-          <p className="text-xl md:text-2xl text-gold-light font-body font-light mb-4">
+          <p className="text-xl md:text-2xl text-[#e9e6c9] font-body font-light mb-4">
             Consulta médica sem filas.
           </p>
-          <p className="text-lg text-gold/80 font-body mb-8 max-w-lg">
+          <p className="text-lg text-[#e9e6c9] font-body mb-8 max-w-lg">
             Atendimento imediato com agenda aberta. Acesso direto a médicos
             generalistas por apenas{" "}
             <span className="text-accent font-bold text-2xl">R$100</span>{" "}
-            <span className="text-gold-light">/mês</span>
+            <span className="text-[#e9e6c9]">/mês</span>
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">
@@ -82,7 +82,7 @@ const HeroSection = () => {
               href="#como-funciona"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="border-2 border-gold text-gold font-cinzel font-semibold px-8 py-4 rounded-sm text-center transition-all hover:bg-gold/10 tracking-wide"
+              className="bg-[#0e234e] text-white font-cinzel font-semibold px-8 py-4 rounded-sm text-center transition-all tracking-wide"
             >
               Saiba Mais
             </motion.a>
