@@ -20,16 +20,16 @@ const QuemSomos = () => {
             <h2 className="text-4xl md:text-5xl font-cinzel font-bold text-gold-light mt-3 mb-8">
               Quem <span className="text-gradient-gold">Somos</span>
             </h2>
-            <p className="text-gold/70 font-body text-lg leading-relaxed mb-6">
+            <p className="text-[#e9e6c9] font-body text-lg leading-relaxed mb-6">
               A Royal Saúde é um convênio que proporciona o acesso direto a médicos prontos para
               atender de imediato, com agenda aberta direto no próprio site, sem filas, sem
               esperar vários dias para ser atendido.
             </p>
-            <p className="text-gold/60 font-body leading-relaxed mb-8">
+            <p className="text-[#e9e6c9] font-body leading-relaxed mb-8">
               Nosso compromisso é oferecer saúde acessível e de qualidade para a região
               de Campo Grande – MS e região, com atendimento humanizado e preços justos.
             </p>
-            <p className="text-gold/40 font-body text-sm">
+            <p className="text-[#e9e6c9] font-body text-sm">
               CNPJ: 61.889.391/0001-31
             </p>
           </motion.div>
@@ -70,7 +70,7 @@ const QuemSomos = () => {
                 </div>
                 <div>
                   <h3 className="font-cinzel text-gold-light font-semibold mb-1">{item.title}</h3>
-                  <p className="text-gold/50 font-body text-sm">{item.desc}</p>
+                  <p className="text-[#e9e6c9] font-body text-sm">{item.desc}</p>
                 </div>
               </motion.div>
             ))}
