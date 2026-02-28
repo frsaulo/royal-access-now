@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
-import logo from "@/assets/logo_header2.png";
+import logo from "@/assets/RoyalSaude.png";
 
 const navLinks = [
   { label: "Início", href: "#" },
