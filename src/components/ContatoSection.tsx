@@ -41,8 +41,8 @@ const ContatoSection = () => {
             {
               icon: MapPin,
               title: "Endereço",
-              info: "R. Puriu, 85 – Itanhangá Park, Campo Grande – MS, CEP 79003-243",
-              href: "https://maps.google.com/?q=R+Puriu+85+Campo+Grande+MS",
+              info: "R. Dr. Eduardo Machado Metelo, 46 - Chácara Cachoeira, Campo Grande - MS, CEP: 79040-830",
+              href: "https://maps.google.com/?q=R+Dr+Eduardo+Machado+Metelo+46+Chacara+Cachoeira+Campo+Grande+MS",
             },
             {
               icon: WhatsappIcon,
