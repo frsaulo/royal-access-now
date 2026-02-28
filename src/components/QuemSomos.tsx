@@ -21,7 +21,7 @@ const QuemSomos = () => {
               Quem <span className="text-gradient-gold">Somos</span>
             </h2>
             <p className="text-[#e9e6c9] font-body text-lg leading-relaxed mb-6">
-              A Royal Saúde é um convênio que proporciona o acesso direto a médicos prontos para
+              A Royal Saúde é um Clube de Benefícios que proporciona o acesso direto a médicos prontos para
               atender de imediato, com agenda aberta direto no próprio site, sem filas, sem
               esperar vários dias para ser atendido.
             </p>
