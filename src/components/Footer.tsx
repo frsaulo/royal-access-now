@@ -1,4 +1,4 @@
-import logo from "@/assets/logo3.png";
+import logo from "@/assets/RoyalSaudeb.png";
 import { Mail } from "lucide-react";
 
 const Footer = () => {
