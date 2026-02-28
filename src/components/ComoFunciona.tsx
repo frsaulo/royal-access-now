@@ -4,7 +4,7 @@ import { CalendarCheck, Clock, UserCheck, CreditCard } from "lucide-react";
 const steps = [
   {
     icon: CreditCard,
-    title: "Assine o Convênio",
+    title: "Assine o Clube de Benefícios",
     description: "Apenas R$100/mês para ter acesso completo a consultas médicas generalistas.",
   },
   {
