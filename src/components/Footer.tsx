@@ -1,4 +1,5 @@
 import logo from "@/assets/logo3.png";
+import { Mail } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -9,9 +10,16 @@ const Footer = () => {
           Convênio médico acessível para<br /> Campo Grande – MS e região
         </p>
         <div className="h-px bg-gradient-gold max-w-xs mx-auto mb-6 opacity-30" />
-        <p className="text-[#e5e5e5] font-body text-xs">
+        <p className="text-[#e5e5e5] font-body text-xs mb-4">
           CNPJ: 61.889.391/0001-31 <br />R. Puriu, 85 Itanhangá Park, Campo Grande – MS
         </p>
+        <a 
+          href="mailto:sac@fidelidaderoyalsaude.com.br" 
+          className="inline-flex items-center gap-2 text-[#e5e5e5] hover:text-gold-light transition-colors font-body text-sm mb-6"
+        >
+          <Mail size={16} />
+          <span>sac@fidelidaderoyalsaude.com.br</span>
+        </a>
         <p className="text-[#e5e5e5] font-body text-xs mt-2">
           © {new Date().getFullYear()} Royal Saúde. Todos os direitos reservados.
         </p>
