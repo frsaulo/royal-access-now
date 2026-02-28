@@ -49,7 +49,7 @@ const HeroSection = () => {
             className="inline-block mb-6"
           >
             <span className="bg-gradient-gold px-4 py-2 rounded-sm text-accent-foreground font-cinzel text-sm font-semibold tracking-widest uppercase">
-              Convênio Médico
+              Clube de Benefícios
             </span>
           </motion.div>
 

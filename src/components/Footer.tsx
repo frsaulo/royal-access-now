@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container mx-auto px-6 text-center">
         <img src={logo} alt="Royal Saúde" className="h-16 mx-auto mb-4" />
         <p className="text-[#e5e5e5] font-body text-sm mb-6">
-          Convênio médico acessível para<br /> Campo Grande – MS e região
+          Clube de benefícios acessível para<br /> Campo Grande – MS e região
         </p>
         <div className="h-px bg-gradient-gold max-w-xs mx-auto mb-6 opacity-30" />
         <p className="text-[#e5e5e5] font-body text-xs mb-4">
