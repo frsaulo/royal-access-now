@@ -11,7 +11,7 @@ const Footer = () => {
         </p>
         <div className="h-px bg-gradient-gold max-w-xs mx-auto mb-6 opacity-30" />
         <p className="text-[#e5e5e5] font-body text-xs mb-4">
-          CNPJ: 61.889.391/0001-31 <br />R. Dr. Eduardo Machado Metelo, 46 - Chácara Cachoeira, Campo Grande - MS, CEP: 79040-830
+          CNPJ: 61.889.391/0001-31 <br />R. Dr. Eduardo Machado Metelo, 46 - Chácara Cachoeira, <br />Campo Grande - MS, CEP: 79040-830
         </p>
         <a 
           href="mailto:sac@fidelidaderoyalsaude.com.br" 
