@@ -65,8 +65,9 @@ const HeroSection = () => {
             generalistas por apenas{" "}
             <span className="text-accent font-bold text-2xl">R$100</span>{" "}
             <span className="text-[#e9e6c9]">/mês*</span>
-            <span className="text-lg text-[#e9e6c9] font-body mb-8 max-w-lg">
+            <span className="block text-sm mt-2">
              *Além da mensalidade de R$100,00, há uma taxa de R$70,00 por consulta.
+            </span>
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">
