@@ -26,8 +26,8 @@ const QuemSomos = () => {
               esperar vários dias para ser atendido.
             </p>
             <p className="text-[#e9e6c9] font-body leading-relaxed mb-8">
-              Nosso compromisso é oferecer saúde acessível e de qualidade para a região
-              de Campo Grande – MS e região, com atendimento humanizado e preços justos.
+              Nosso compromisso é oferecer saúde acessível de qualidade para todos mesmo que 
+              seja por tele medicina, com atendimento humanizado e taxas simbólicas.
             </p>
             <p className="text-[#e9e6c9] font-body text-sm">
               CNPJ: 61.889.391/0001-31
