@@ -27,7 +27,7 @@ const QuemSomos = () => {
             </p>
             <p className="text-[#e9e6c9] font-body leading-relaxed mb-8">
               Nosso compromisso é oferecer saúde acessível de qualidade para todos mesmo que 
-              seja por tele medicina, com atendimento humanizado e taxas simbólicas.
+              seja por telemedicina, com atendimento humanizado e taxas simbólicas.
             </p>
             <p className="text-[#e9e6c9] font-body text-sm">
               CNPJ: 61.889.391/0001-31
