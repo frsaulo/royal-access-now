@@ -64,7 +64,9 @@ const HeroSection = () => {
             Atendimento imediato com agenda aberta. Acesso direto a médicos
             generalistas por apenas{" "}
             <span className="text-accent font-bold text-2xl">R$100</span>{" "}
-            <span className="text-[#e9e6c9]">/mês</span>
+            <span className="text-[#e9e6c9]">/mês*</span>
+            <span className="text-lg text-[#e9e6c9] font-body mb-8 max-w-lg">
+             *Além da mensalidade de R$100,00, há uma taxa de R$70,00 por consulta.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">
